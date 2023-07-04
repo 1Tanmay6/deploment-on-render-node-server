@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "First Node deployment server on render",
   "main": "app.js",
+  "engines": {
+    "node": "18.16.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "NODE_ENV=production MONGO_USER=nodeProjectUser MONGO_PASSWORD=nodeProjectUser MONGO_DATABASE=shop STRIPE_KEY=sk_test_BMD9aaviqJzK0hlROg2KMRbD node app.js",
